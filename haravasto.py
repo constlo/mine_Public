@@ -54,7 +54,6 @@ grafiikka = {
 kasittelijat = {
     "toistuvat": [],
 }
-
 glEnable(GL_TEXTURE_2D)
 
 def lataa_kuvat(polku):
@@ -272,7 +271,7 @@ def piirra_tausta():
 
     grafiikka["tausta"].draw()
 
-def piirra_tekstia(teksti, x, y, vari=(0, 0, 0, 255), fontti="serif", koko=32):
+def piirra_tekstia(teksti, x, y, vari=(0, 0, 0, 255), fontti="Times New Roman", koko=32):
     """
     Piirtää tekstiä ruudulle. Voit käyttää tätä funktiota jos haluat kirjoittaa
     käyttöliittymään jotain (esim. laskureita tai ohjeita). Oletusfontti on
